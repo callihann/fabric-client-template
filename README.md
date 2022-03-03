@@ -3,6 +3,8 @@ This is a simple fabric client with absolutely nothing implemented and should be
 
 ## What to do
 - Clone this repository locally to your machine
+  - Use the command `git clone --branch master https://github.com/callihann/fabric-client-template/`
+  - I messed up the branch so it is on the master branch instead of the main branch. If someone has any tips on how to fix this, it would be greatly appreciated.
 - Open the project in intellij
 - Once this project is open, open the gradle tab on the top right of your screen. Once that is open you should see a wrench icon. Click this and press gradle settings. From there change the JVM version from whatever you have it as to a version of JDK 16.
   - JDK 16 can be downloaded from here: https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.
