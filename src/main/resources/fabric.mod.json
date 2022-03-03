@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricClient",
+  "version": "${version}",
+  "name": "fabric client",
+  "description": "fabric client ",
+  "authors": [
+    "callihan"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fabricClient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.callihan.fabricClient.FabricClient"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "fabricClient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  }
+}
