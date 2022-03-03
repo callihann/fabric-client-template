@@ -23,4 +23,4 @@ public class FabricClient implements ModInitializer {
         LOGGER.log(level, "["+MOD_NAME+"] " + message);
     }
 
-}
+} //
