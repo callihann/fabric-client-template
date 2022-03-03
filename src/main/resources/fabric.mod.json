@@ -3,13 +3,13 @@
   "id": "fabclient",
   "version": "${version}",
   "name": "Example Client",
-  "description": "This is a description",
+  "description": "Example client as base",
   "authors": [
-    "callihann"
+    "calihann"
   ],
   "contributors": [],
   "contact": {},
-  "license": "GPL-3.0",
+  "license": "MIT",
   "icon": "assets/fabclient/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -19,7 +19,9 @@
     "client": [],
     "server": []
   },
-  "mixins": [],
+  "mixins": [
+    "fabclient.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.13.3"
   }
