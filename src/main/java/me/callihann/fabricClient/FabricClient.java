@@ -1,4 +1,4 @@
-package me.callihan.fabricClient;
+package me.callihann.fabricClient;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -10,8 +10,8 @@ public class FabricClient implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "fabricClient";
-    public static final String MOD_NAME = "fabric client";
+    public static final String MOD_ID = "fabclient";
+    public static final String MOD_NAME = "Example Client";
 
     @Override
     public void onInitialize() {

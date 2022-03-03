@@ -1,27 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "fabricClient",
+  "id": "fabclient",
   "version": "${version}",
-  "name": "fabric client",
-  "description": "fabric client ",
+  "name": "Example Client",
+  "description": "This is a description",
   "authors": [
-    "callihan"
+    "callihann"
   ],
   "contributors": [],
   "contact": {},
-  "license": "MIT",
-  "icon": "assets/fabricClient/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/fabclient/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.callihan.fabricClient.FabricClient"
+      "me.callihann.fabricClient.FabricClient"
     ],
     "client": [],
     "server": []
   },
-  "mixins": [
-    "fabricClient.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.13.3"
   }
